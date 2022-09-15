@@ -1,0 +1,69 @@
+
+.container_card{
+    height: 400px;
+    width: 350px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    background: rgb(195,209,255);
+    background: linear-gradient(330deg, rgba(195,209,255,1) 44%, rgba(255,234,158,0.4) 98%);
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(200, 200, 200);
+}
+
+.titulo{
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+
+/* Tempo atual */
+.titulo_temp_atual{
+    display: flex;
+    
+}
+.temp_atual{
+    font-size: 100px;
+    color: black;
+}
+.c{
+    padding-top: 50px;
+    font-size: 50px;
+    color: black;
+}
+
+
+/* Informações */
+.conteudo p{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+.max_min{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+}
+.max_min p{
+    padding: 10px 10px 10px 10px;
+}
+.sensacaoT{
+    padding-bottom: 20px;
+}
+.info2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+}
+.info2 p{
+    padding: 0px 10px 10px 10px;
+}
+.sensa{
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px 10px 20px;
+}
+.sensa p{
+    padding: 0px 10px 10px 10px;
+}
