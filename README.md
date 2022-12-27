@@ -6,6 +6,7 @@ Um projeto desenvolvido por:
 [Henrique](https://github.com/Henrique-Botelho) |
 [Heitor](https://github.com/heitorsclaudino)
 
+### Apresentação
 O **ACME_Tempo** foi um projeto construído em **_React.js_** e **_React-native_**. Com duas versões disponíveis, fiquei com a versão do computador, usando o React.js .Trabalhamos com uma API de um site metereorológico para buscar a previsão do tempo de três cidades brasileiras __*Curitiba, Salvador e São Paulo*__.
 Pelo fato de este projeto ser apenas para fins educativos, decidimos não pagar os serviços da API do nosso projeto, e por isso não funcionará corretamente (como testamos no teste grátis). 
 Ainda assim, decidimos manter o projeto no Github, para preservar nosso trabalho.
