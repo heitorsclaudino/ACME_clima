@@ -2,8 +2,7 @@ import React from "react";
 import Card from '../../components/Card';
 import EstruturaPagina from "../../components/EstruturaPagina";
 import "./styles.css";
-import { useState,useEffect } from "react";
-import api from "../../services/api";
+
 
 export default function Home(){
     return(

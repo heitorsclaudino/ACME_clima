@@ -8,12 +8,6 @@ function Card (props){
 
     useEffect(()=>{
         async function lerInformacoes(){
-            //o método get vai concatenar a baseURL com a rota para
-            //o componente Home (página principal)
-
-            //baseURL = https://api.weatherapi.com
-            //rota = /v1/forecast.json?key=5ab6bad506ad4ff9971120430220809&q=all&days=1&aqi=no&alerts=no
-            //get = https://api.weatherapi.com/v1/current.json?key=5ab6bad506ad4ff9971120430220809&q=São%20Paulo&days=1&aqi=no&alerts=no
             const cidade = props.cidade;
             const path = "/forecast.json?key=5ab6bad506ad4ff9971120430220809&q=" + cidade + "&days=1&aqi=no&alerts=no&lang=pt";
       
