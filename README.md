@@ -13,5 +13,6 @@ Ainda assim, decidimos manter o projeto no Github, para preservar nosso trabalho
 
 Utilizamos o serviço de rotas do *react-router-dom* (para PC) e do *react-navigation* para o app. 
 
+***
 ### Como a aplicação funciona?
 Na página Home, encontra 3 cards, um para cada cidade. Com a API funcionando, o app mostrava as informações do local como a *temperatura, sensação térmica, previsão do tempo, temp. máxima e mínima, índice UV e umidade do ar*.
